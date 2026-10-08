@@ -4,6 +4,8 @@ I work on problems in combinatorics, geometry and probability, many of them pose
 
 ## Mathematics
 
+Papers and notes, with their checks and Lean formalisations: [mathematics](https://github.com/jvvk/mathematics).
+
 Selected answers:
 
 - [Four acute faces](https://mathoverflow.net/a/515661): a random tetrahedron inscribed in a sphere has all four faces acute with probability 1/12.
