@@ -99,11 +99,20 @@ Ait-Haddou's ratio of complete homogeneous symmetric polynomials increases, for 
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/verify">code</a></sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths"><img src="assets/dyck-signs.svg" width="100%" alt="Even and odd Dyck paths"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths">Even and odd Dyck paths</a></b><br>
+Weight a Dyck path by its valley positions: even minus odd is the number of symmetric paths. Cigler's question, a combinatorial proof.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials"><img src="assets/sylow.svg" width="100%" alt="Counting cycles in a Sylow 2-subgroup"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials">Counting cycles in a Sylow 2-subgroup</a></b><br>
 The two factors Stanley observed are irreducible over the rationals at every level.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
