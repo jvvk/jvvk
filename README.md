@@ -105,15 +105,6 @@ The two factors Stanley observed are irreducible over the rationals at every lev
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations"><img src="assets/powers-of-four.svg" width="100%" alt="Deleting the powers of four"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations">Deleting the powers of four</a></b><br>
-Remove 16, 64, 256, … and the ordered ways to write n as a sum of three survivors still rise at every n: Sándor and Yang's Remark 1.3.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/verify">code</a></sub></p>
-</td>
-<td width="50%"></td>
-</tr>
 </table>
 
 ### Open problems settled, verified by computation
@@ -179,17 +170,26 @@ In Friedman's prime-signature table, 1022303⁴ belongs in cell (4, 411), where 
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations"><img src="assets/powers-of-four.svg" width="100%" alt="Deleting the powers of four"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations">Deleting the powers of four</a></b><br>
+Remove 16, 64, 256, … and the ordered ways to write n as a sum of three survivors still rise at every n: Sándor and Yang's Remark 1.3.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/verify">code</a> · Proposition 1 in Lean; Problem 1.4 facts by hand</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre"><img src="assets/tangent-circles.svg" width="100%" alt="Three circles and a fair coin"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre">Three circles and a fair coin</a></b><br>
 A triangle through random points on three touching circles contains the incentre with probability exactly 1/2, for all radii.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/verify">code</a> · Partly in Lean; geometry by hand</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game"><img src="assets/zero-sum.svg" width="100%" alt="A zero-sum selection game"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game">A zero-sum selection game</a></b><br>
 Lev's question: the winning matrices form a union of subspaces of dimension n(n+1)/2 − 1, and recognising them is Π₂ᵖ-complete.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/verify">code</a> · Partly in Lean; reduction by hand</sub></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
@@ -223,7 +223,7 @@ Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n
 <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space"><img src="assets/cube-unfoldings.svg" width="100%" alt="Unfolded cubes that tile space"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space">Unfolded cubes that tile space</a></b><br>
 Every one of the 502,110 unfoldings of the six-dimensional cube tiles five-space with its point reflection, extending Firet's five-cube result.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/verify">code</a> · Certificates, two checkers; lemmas in Lean</sub></p>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/verify">code</a> · Certificates, two checkers; lemmas in Lean</sub></p>
 </td>
 </tr>
 <tr>
