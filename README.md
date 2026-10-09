@@ -1,10 +1,211 @@
 <p align="center"><img src="assets/banner.svg" width="100%" alt="Vamshi Jandhyala"></p>
 
-I work on problems in combinatorics, geometry and probability, many of them posed by others on MathOverflow and Mathematics Stack Exchange. Answers come with the code that checks them, and many are formalised in Lean.
+I work on problems in combinatorics, geometry and probability, many of them posed by others on MathOverflow and Mathematics Stack Exchange. Answers come with the code that checks them, and many are formalised in Lean. Every paper is in [mathematics](https://github.com/jvvk/mathematics).
 
-### Formalised results
+### Open problems settled, formally verified
 
-Each of these is checked end to end in Lean 4. Click a picture for the paper, the Lean proof and the code.
+Each result is checked end to end in Lean 4.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings"><img src="assets/almost-squares.svg" width="100%" alt="Almost-squares in almost-squares"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings">Almost-squares in almost-squares</a></b><br>
+Which k × (k+1) rectangles split into smaller distinct ones: exactly 4, 10, 12, 14, 15, 18 and every k ≥ 20. Friedman's conjecture.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull"><img src="assets/triangulations.svg" width="100%" alt="Two triangulations, one outline"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull">Two triangulations, one outline</a></b><br>
+From nine points on, two triangulations can share nothing but the five outline edges, answering Rote.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy"><img src="assets/enclosing.svg" width="100%" alt="Does the smallest copy fit?"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy">Does the smallest copy fit?</a></b><br>
+For many random points in an equilateral triangle, the smallest enclosing copy fits inside with probability tending to 13/48, not 1/2.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles"><img src="assets/chords.svg" width="100%" alt="Random lines past three circles"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles">Random lines past three circles</a></b><br>
+Lines AB and BC hit the third circle equally often, for every ratio of radii in geometric progression.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph"><img src="assets/cubic.svg" width="100%" alt="A cubic graph with no (n−1)-cycle"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph">A cubic graph with no (n−1)-cycle</a></b><br>
+Hamiltonian, not bipartite, and no cycle of length 19: an answer to Gordon Royle's question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares"><img src="assets/necklace.svg" width="100%" alt="Necklaces no cut can split"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares">Necklaces no cut can split</a></b><br>
+Shuffle anti-squares exist in every even length from 24, as Grytczuk, Pawlik and Pleszczyński conjectured.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic"><img src="assets/mex.svg" width="100%" alt="A mex sequence that never repeats"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic">A mex sequence that never repeats</a></b><br>
+Guy's question E27: the sequence from 1,1,1,0,1,0,1,1 is unbounded, so not ultimately periodic.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison"><img src="assets/conway.svg" width="100%" alt="Newman-Conway and its cousin"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison">Newman-Conway and its cousin</a></b><br>
+Alkan's alternating variant never strays further from n/2 than the Newman-Conway sequence.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates"><img src="assets/lemniscates.svg" width="100%" alt="Two figures of eight"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates">Two figures of eight</a></b><br>
+Polynomial lemniscates meet in at most 2n₁n₂ − 2 points; two lemniscates of Bernoulli in at most six.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients"><img src="assets/balanced-ternary.svg" width="100%" alt="Quotients of balanced ternary numbers"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients">Quotients of balanced ternary numbers</a></b><br>
+Guy's question F31: infinitely many integers are not a ratio of two numbers whose balanced-ternary digits are all 1 or −1.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse"><img src="assets/descent-sets.svg" width="100%" alt="Descent sets of a permutation and its inverse"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse">Descent sets of a permutation and its inverse</a></b><br>
+Almost every pair of subsets occurs, so Stanley's growth rate is L = 4.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity"><img src="assets/alternating-sum.svg" width="100%" alt="An alternating sum that is never negative"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity">An alternating sum that is never negative</a></b><br>
+Abdesselam's sum L(u,a,b,n) is nonnegative, and Taylor's and Hucht's conjectures follow.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/verify">code</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio"><img src="assets/symmetric-ratio.svg" width="100%" alt="A ratio of symmetric polynomials"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio">A ratio of symmetric polynomials</a></b><br>
+Ait-Haddou's ratio of complete homogeneous symmetric polynomials increases, for every degree and position.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/verify">code</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials"><img src="assets/sylow.svg" width="100%" alt="Counting cycles in a Sylow 2-subgroup"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials">Counting cycles in a Sylow 2-subgroup</a></b><br>
+The two factors Stanley observed are irreducible over the rationals at every level.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
+</td>
+</tr>
+</table>
+
+### Open problems settled, verified by computation
+
+Proved by exhaustive search with independent cross-checks, or by hand with parts in Lean.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles"><img src="assets/equal-perimeter.svg" width="100%" alt="Equal perimeters, no two alike"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles">Equal perimeters, no two alike</a></b><br>
+A square splits into nine rectangles of equal perimeter, no two congruent; nine is the fewest, with exactly five solutions.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles/verify">code</a> · Exhaustive search, two independent programs</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611"><img src="assets/squaring.svg" width="100%" alt="697 × 611 in fourteen squares"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611">697 × 611 in fourteen squares</a></b><br>
+The rectangle needs exactly fourteen squares, not seventeen, so it is not a counterexample to the minimal squaring conjecture.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611/verify">code</a> · Complete enumeration, checked against OEIS</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/bishops.svg" width="100%" alt="Three armies of bishops"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Three armies of bishops</a></b><br>
+Three armies of five bishops fit on a 5 × 5 board and three of eight on 6 × 6, and no more: Friedman's two values.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Exhaustive count of diagonal labellings</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/capture.svg" width="100%" alt="Chess capture patterns"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Chess capture patterns</a></b><br>
+Friedman's capture digraphs q, r and s are not made by any chess position, on any board.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Two independent solvers</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/kings.svg" width="100%" alt="Kings that touch in a cycle"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Kings that touch in a cycle</a></b><br>
+Kings with touch counts (1,3,6), (1,6,3) or (2,3,4) admit no finite arrangement: Friedman's unsolved problem 24.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · DRUP certificates, independent Z3 check</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/heptomino.svg" width="100%" alt="A heptomino that never balances"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A heptomino that never balances</a></b><br>
+This heptomino never fills a square with equal row and column counts, in any size: one shape of Friedman's problem 15.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Proof by hand, exact checker</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre"><img src="assets/tangent-circles.svg" width="100%" alt="Three circles and a fair coin"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre">Three circles and a fair coin</a></b><br>
+A triangle through random points on three touching circles contains the incentre with probability exactly 1/2, for all radii.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/verify">code</a> · Partly in Lean; geometry by hand</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game"><img src="assets/zero-sum.svg" width="100%" alt="A zero-sum selection game"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game">A zero-sum selection game</a></b><br>
+Lev's question: the winning matrices form a union of subspaces of dimension n(n+1)/2 − 1, and recognising them is Π₂ᵖ-complete.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/verify">code</a> · Partly in Lean; reduction by hand</sub></p>
+</td>
+</tr>
+</table>
+
+### Partial progress
+
+Part of the question answered; the rest is still open.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter"><img src="assets/hexagon.svg" width="100%" alt="Six matchsticks in a square"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter">Six matchsticks in a square</a></b><br>
+No simple loop of six unit sticks fits in a unit square: the six-stick case of an open parity question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/verify">code</a> · Partly in Lean</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle"><img src="assets/pascal.svg" width="100%" alt="A randomized Pascal triangle"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle">A randomized Pascal triangle</a></b><br>
+The expected average blows up whenever p ≥ 0.232; whether it does for every p > 0 is open.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/verify">code</a> · In Lean</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/taxicab-distances-eleven"><img src="assets/taxicab.svg" width="100%" alt="Eleven points, distances 1 to 55"></a>
+<p><b><a href="https://github.com/jvvk/taxicab-distances-eleven">Eleven points, distances 1 to 55</a></b><br>
+Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n = 11 of an open question.<br>
+<sub><a href="https://github.com/jvvk/taxicab-distances-eleven">repository</a> · Computer search</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
+Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
+</td>
+</tr>
+</table>
+
+### New proofs of known results
 
 <table>
 <tr>
@@ -12,77 +213,14 @@ Each of these is checked end to end in Lean 4. Click a picture for the paper, th
 <a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle"><img src="assets/six-circles.svg" width="100%" alt="Six circles in a rectangle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle">Six circles in a rectangle</a></b><br>
 The red segment is exactly as long as the rectangle is tall: a proof by classical geometry alone.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle/lean">Lean proof</a></sub></p>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/six-circles-rectangle/verify">code</a> · In Lean, step by step</sub></p>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings"><img src="assets/almost-squares.svg" width="100%" alt="Almost-squares in almost-squares"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings">Almost-squares in almost-squares</a></b><br>
-Which k × (k+1) rectangles split into smaller distinct ones: exactly 4, 10, 12, 14, 15, 18 and every k ≥ 20.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/lean">Lean proof</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull"><img src="assets/triangulations.svg" width="100%" alt="Two triangulations, one outline"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull">Two triangulations, one outline</a></b><br>
-From nine points on, two triangulations can share nothing but the five outline edges.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/lean">Lean proof</a></sub></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy"><img src="assets/enclosing.svg" width="100%" alt="Does the smallest copy fit?"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy">Does the smallest copy fit?</a></b><br>
-For many random points in an equilateral triangle, the smallest enclosing copy fits inside with probability tending to 13/48, not 1/2.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/lean">Lean proof</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles"><img src="assets/chords.svg" width="100%" alt="Random lines past three circles"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles">Random lines past three circles</a></b><br>
-Lines AB and BC hit the third circle equally often, for every ratio of radii in geometric progression.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/lean">Lean proof</a></sub></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph"><img src="assets/cubic.svg" width="100%" alt="A cubic graph with no (n−1)-cycle"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph">A cubic graph with no (n−1)-cycle</a></b><br>
-Hamiltonian, not bipartite, and no cycle of length 19: an answer to Gordon Royle's question.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/lean">Lean proof</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares"><img src="assets/necklace.svg" width="100%" alt="Necklaces no cut can split"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares">Necklaces no cut can split</a></b><br>
-Shuffle anti-squares exist in every even length from 24, as Grytczuk, Pawlik and Pleszczyński conjectured.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/lean">Lean proof</a></sub></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic"><img src="assets/mex.svg" width="100%" alt="A mex sequence that never repeats"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic">A mex sequence that never repeats</a></b><br>
-Guy's question E27: the sequence from 1,1,1,0,1,0,1,1 is unbounded, so not ultimately periodic.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/lean">Lean proof</a></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison"><img src="assets/conway.svg" width="100%" alt="Newman-Conway and its cousin"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison">Newman-Conway and its cousin</a></b><br>
-Alkan's alternating variant never strays further from n/2 than the Newman-Conway sequence.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/lean">Lean proof</a></sub></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates"><img src="assets/lemniscates.svg" width="100%" alt="Two figures of eight"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates">Two figures of eight</a></b><br>
-Polynomial lemniscates meet in at most 2n₁n₂ − 2 points; two lemniscates of Bernoulli in at most six.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/lean">Lean proof</a></sub></p>
-</td>
+<td width="50%"></td>
 </tr>
 </table>
 
-### More
+### Elsewhere
 
-- [mathematics](https://github.com/jvvk/mathematics): every paper and note, with its checks, including results proved by exhaustive computation: Erich Friedman's armies of bishops and three of his unsolved problems, and the 697 × 611 rectangle in fourteen squares.
 - [Four acute faces](https://mathoverflow.net/a/515661): a random tetrahedron inscribed in a sphere has four acute faces with probability 1/12.
-- [Eleven points, taxicab distances 1 to 55](https://github.com/jvvk/taxicab-distances-eleven): every pairwise distance different.
 
 <sub>Papers and figures CC BY 4.0, code MIT.</sub>
