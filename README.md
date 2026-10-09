@@ -105,6 +105,15 @@ The two factors Stanley observed are irreducible over the rationals at every lev
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations"><img src="assets/powers-of-four.svg" width="100%" alt="Deleting the powers of four"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations">Deleting the powers of four</a></b><br>
+Remove 16, 64, 256, … and the ordered ways to write n as a sum of three survivors still rise at every n: Sándor and Yang's Remark 1.3.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/verify">code</a></sub></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ### Open problems settled, verified by computation
@@ -211,25 +220,34 @@ Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n
 <sub><a href="https://github.com/jvvk/taxicab-distances-eleven">repository</a> · Computer search</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space"><img src="assets/cube-unfoldings.svg" width="100%" alt="Unfolded cubes that tile space"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space">Unfolded cubes that tile space</a></b><br>
+Every one of the 502,110 unfoldings of the six-dimensional cube tiles five-space with its point reflection, extending Firet's five-cube result.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/verify">code</a> · Certificates, two checkers; lemmas in Lean</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees"><img src="assets/balanced-mast.svg" width="100%" alt="How much two balanced trees must share"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees">How much two balanced trees must share</a></b><br>
 Two balanced trees on n leaves always agree on at least n^0.243 leaves, and some on only n^(5/11); Martin and Thatte conjectured n^(1/2).<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/verify">code</a> · Lean, except one certified inequality</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/slabs.svg" width="100%" alt="Cubes cut into slabs"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Cubes cut into slabs</a></b><br>
 A cube made of one k-slab for each k ≤ n has side at most n(n+1)/2, and none exists for n = 4, 5, 6; Friedman conjectures infinitely many.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Bound by hand, n = 4 to 6 by two searches</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
 Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
