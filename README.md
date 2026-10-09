@@ -156,6 +156,20 @@ This heptomino never fills a square with equal row and column counts, in any siz
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/tournament.svg" width="100%" alt="A tournament schedule that beats the table"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A tournament schedule that beats the table</a></b><br>
+Friedman's optimal tournaments: exact best schedules over all adaptive plans, two of them better than the published values.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Exact recursion, two programs</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/prime-signature.svg" width="100%" alt="A misfiled prime signature"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A misfiled prime signature</a></b><br>
+In Friedman's prime-signature table, 1022303⁴ belongs in cell (4, 411), where it is the smallest; cell (4, 41) is empty.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Proof by hand, computer search</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre"><img src="assets/tangent-circles.svg" width="100%" alt="Three circles and a fair coin"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre">Three circles and a fair coin</a></b><br>
 A triangle through random points on three touching circles contains the incentre with probability exactly 1/2, for all radii.<br>
@@ -205,12 +219,17 @@ Two balanced trees on n leaves always agree on at least n^0.243 leaves, and some
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/slabs.svg" width="100%" alt="Cubes cut into slabs"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Cubes cut into slabs</a></b><br>
+A cube made of one k-slab for each k ≤ n has side at most n(n+1)/2, and none exists for n = 4, 5, 6; Friedman conjectures infinitely many.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Bound by hand, n = 4 to 6 by two searches</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
 Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
