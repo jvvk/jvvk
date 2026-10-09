@@ -197,11 +197,20 @@ Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n
 <sub><a href="https://github.com/jvvk/taxicab-distances-eleven">repository</a> · Computer search</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees"><img src="assets/balanced-mast.svg" width="100%" alt="How much two balanced trees must share"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees">How much two balanced trees must share</a></b><br>
+Two balanced trees on n leaves always agree on at least n^0.243 leaves, and some on only n^(5/11); Martin and Thatte conjectured n^(1/2).<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/verify">code</a> · Lean, except one certified inequality</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
 Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
