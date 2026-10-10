@@ -217,7 +217,12 @@ Summing 1/√(a·ā) over a and its inverse mod p gives 5 + O(p^(−1/8+ε)): th
 Among loaded dice whose faces are capped at probability r, a staircase against its own reversal is the easiest pair to tell apart, for any number of faces and rolls; this answers an open Math.SE question with its equality cases.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/verify">code</a> · In Lean; equality cases for two rolls partly open</sub></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral"><img src="assets/tanh-product.svg" width="100%" alt="An integral of hyperbolic tangents"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral">An integral of hyperbolic tangents</a></b><br>
+The integral of tanh(x)tanh(2x)⋯tanh(nx)/x² reduces, for odd n, to logarithms and L′(−1) values with explicit coefficients; a cotangent symmetry explains which conductors appear, answering an open Math.SE question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/verify">code</a> · Residue steps in Lean; analytic steps cited</sub></p>
+</td>
 </tr>
 </table>
 
