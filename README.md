@@ -236,7 +236,7 @@ Part of the question answered; the rest is still open.
 <a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points"><img src="assets/seven-colours.svg" width="100%" alt="Colour the points, not the plane"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points">Colour the points, not the plane</a></b><br>
 Points pairwise ≥ 1 apart contain N/7 pairwise more than √3 apart, but no tiling with seven colours proves it: every tiling scheme needs (1 + √3)² ≈ 7.46 colours, and nine half-open hexagon classes suffice.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points/paper">paper</a> · Lemma, bound arithmetic and counterexample in Lean; eight open</sub></p>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points/verify">code</a> · Lemma, bound arithmetic and counterexample in Lean; eight open</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray"><img src="assets/coins-in-a-tray.svg" width="100%" alt="Coins in a tray"></a>
