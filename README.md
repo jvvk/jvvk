@@ -112,7 +112,12 @@ Weight a Dyck path by its valley positions: even minus odd is the number of symm
 The two factors Stanley observed are irreducible over the rationals at every level.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence"><img src="assets/half-window.svg" width="100%" alt="A sequence that looks back half way"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence">A sequence that looks back half way</a></b><br>
+If a(n) drops by a(⌊n/2⌋)/n at each odd step, then n a(n) tends to 1/(1 − ln 2), as a commenter guessed from the digits.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/verify">code</a></sub></p>
+</td>
 </tr>
 </table>
 
@@ -215,18 +220,32 @@ Every Latin square of order n has rank at least 1 + 3(n−1)/(n+1), so at least 
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/verify">code</a> · Bound and r(6), r(8) in Lean; r(5), r(7) by exact search</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid"><img src="assets/centroid-circle.svg" width="100%" alt="Catching the centroid"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid">Catching the centroid</a></b><br>
+A circle on a random diameter of a convex region contains the centroid with probability at most 8/15, and at most 14/27 near a triangle; the equilateral triangle's 0.5164 is conjectured best.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/verify">code</a> · Bounds in Lean; sharp value open</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter"><img src="assets/hexagon.svg" width="100%" alt="Six matchsticks in a square"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter">Six matchsticks in a square</a></b><br>
 No simple loop of six unit sticks fits in a unit square: the six-stick case of an open parity question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/verify">code</a> · Partly in Lean</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle"><img src="assets/pascal.svg" width="100%" alt="A randomized Pascal triangle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle">A randomized Pascal triangle</a></b><br>
 The expected average blows up whenever p ≥ 0.232; whether it does for every p > 0 is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/verify">code</a> · In Lean</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels"><img src="assets/power-two-tree.svg" width="100%" alt="Labelling binary trees by powers of two"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels">Labelling binary trees by powers of two</a></b><br>
+Every tree with at most 24 vertices can be labelled 0 to n − 1 with power-of-two steps; five constructions and an exact rule for universal label sets narrow any counterexample.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/verify">code</a> · Constructions and lemmas in Lean; searches by two programs</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors"><img src="assets/divisor-walk.svg" width="100%" alt="Wandering over the divisors of 10ⁿ"></a>
