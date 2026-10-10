@@ -210,6 +210,15 @@ Summing 1/√(a·ā) over a and its inverse mod p gives 5 + O(p^(−1/8+ε)): th
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/verify">code</a> · In Lean, assuming Weil's bound</sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice"><img src="assets/easiest-dice.svg" width="100%" alt="The easiest dice to tell apart"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice">The easiest dice to tell apart</a></b><br>
+Among loaded dice whose faces are capped at probability r, a staircase against its own reversal is the easiest pair to tell apart, for any number of faces and rolls; this answers an open Math.SE question with its equality cases.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/verify">code</a> · In Lean; equality cases for two rolls partly open</sub></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ### Partial progress
