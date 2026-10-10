@@ -231,7 +231,7 @@ Part of the question answered; the rest is still open.
 <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray"><img src="assets/coins-in-a-tray.svg" width="100%" alt="Coins in a tray"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray">Coins in a tray</a></b><br>
 Coins of radii 1/2, …, 1/n cannot be held rigidly around the rim of a unit tray for any 5 ≤ n ≤ 1000, nor in a triangulated arrangement for 5 ≤ n ≤ 16; angle relations are decided exactly by prime-ideal valuations.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/verify">code</a> · Key lemmas in Lean; searches exact</sub></p>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/verify">code</a> · Key lemmas in Lean; searches exact</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank"><img src="assets/latin-rank.svg" width="100%" alt="Latin squares of small rank"></a>
@@ -365,6 +365,15 @@ Every best chain has lengths rising then falling; exactly three orders occur for
 One copy of every hole-free n-omino tiles no rectangle for n = 8, 10 or 16, because the pieces' checkerboard imbalances add up to 2 mod 4 (for n = 16, over 11,230,003 pieces). Sizes 9 and 11 to 15 stay open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/verify">code</a> · Parity argument in Lean; totals by two enumerations</sub></p>
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/binary-word-polynomials"><img src="assets/binary-words.svg" width="100%" alt="Binary words with the same polynomial"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/binary-word-polynomials">Binary words with the same polynomial</a></b><br>
+When do two binary words give tridiagonal matrices with the same characteristic polynomial? One block-reversal lemma, with complementation, explains 805 of the 822 coincidences up to length 22; 17 sporadic ones are left open.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/binary-word-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/binary-word-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/binary-word-polynomials/verify">code</a> · Lemma and families in Lean; census by computation</sub></p>
+</td>
+<td width="50%"></td>
 </tr>
 </table>
 
