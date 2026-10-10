@@ -270,68 +270,73 @@ Raise a triangle's apex along the perpendicular through a point of its base and 
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words"><img src="assets/sixteen-words.svg" width="100%" alt="Sixteen words cover all 15-bit strings"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words">Sixteen words cover all 15-bit strings</a></b><br>
+Deleting five bits from every 15-bit string can leave just 16 different strings, down from 17 in 2013, so the growth rate of the n/3-deletion problem is at most 16^(1/15) < 1.2031; among symmetric sets 16 is optimal.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/verify">code</a> · Rate argument in Lean; cover and optimality by certified computation</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter"><img src="assets/hexagon.svg" width="100%" alt="Six matchsticks in a square"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter">Six matchsticks in a square</a></b><br>
 No simple loop of six unit sticks fits in a unit square: the six-stick case of an open parity question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/verify">code</a> · Partly in Lean</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle"><img src="assets/pascal.svg" width="100%" alt="A randomized Pascal triangle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle">A randomized Pascal triangle</a></b><br>
 The expected average blows up whenever p ≥ 0.232; whether it does for every p > 0 is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/verify">code</a> · In Lean</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels"><img src="assets/power-two-tree.svg" width="100%" alt="Labelling binary trees by powers of two"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels">Labelling binary trees by powers of two</a></b><br>
 Every tree with at most 24 vertices can be labelled 0 to n − 1 with power-of-two steps; five constructions and an exact rule for universal label sets narrow any counterexample.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/verify">code</a> · Constructions and lemmas in Lean; searches by two programs</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors"><img src="assets/divisor-walk.svg" width="100%" alt="Wandering over the divisors of 10ⁿ"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors">Wandering over the divisors of 10ⁿ</a></b><br>
 Players multiply by 2 or 5 or divide by 10, never repeating a divisor. The tournament's natural answer fails from 10⁶ on, and the second player beats whole families of openings on every board.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/verify">code</a> · Theorems in Lean; tables by two programs</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/taxicab-distances-eleven"><img src="assets/taxicab.svg" width="100%" alt="Eleven points, distances 1 to 55"></a>
 <p><b><a href="https://github.com/jvvk/taxicab-distances-eleven">Eleven points, distances 1 to 55</a></b><br>
 Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n = 11 of an open question.<br>
 <sub><a href="https://github.com/jvvk/taxicab-distances-eleven">repository</a> · Computer search</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space"><img src="assets/cube-unfoldings.svg" width="100%" alt="Unfolded cubes that tile space"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space">Unfolded cubes that tile space</a></b><br>
 Every one of the 502,110 unfoldings of the six-dimensional cube tiles five-space with its point reflection, extending Firet's five-cube result.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/verify">code</a> · Certificates, two checkers; lemmas in Lean</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees"><img src="assets/balanced-mast.svg" width="100%" alt="How much two balanced trees must share"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees">How much two balanced trees must share</a></b><br>
 Two balanced trees on n leaves always agree on at least n^0.243 leaves, and some on only n^(5/11); Martin and Thatte conjectured n^(1/2).<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/verify">code</a> · Lean, except one certified inequality</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/slabs.svg" width="100%" alt="Cubes cut into slabs"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Cubes cut into slabs</a></b><br>
 A cube made of one k-slab for each k ≤ n has side at most n(n+1)/2, and none exists for n = 4, 5, 6; Friedman conjectures infinitely many.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Bound by hand, n = 4 to 6 by two searches</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
 Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
