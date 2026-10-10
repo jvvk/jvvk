@@ -203,7 +203,12 @@ A triangle through random points on three touching circles contains the incentre
 Lev's question: the winning matrices form a union of subspaces of dimension n(n+1)/2 − 1, and recognising them is Π₂ᵖ-complete.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/verify">code</a> · Partly in Lean; reduction by hand</sub></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five"><img src="assets/inverse-pairs.svg" width="100%" alt="Five from inverse pairs"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five">Five from inverse pairs</a></b><br>
+Summing 1/√(a·ā) over a and its inverse mod p gives 5 + O(p^(−1/8+ε)): the inverse pairs behave like all pairs, and those sum to (∑ 1/√a)²/p → 4.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/verify">code</a> · In Lean, assuming Weil's bound</sub></p>
+</td>
 </tr>
 </table>
 
