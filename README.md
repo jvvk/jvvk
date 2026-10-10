@@ -222,7 +222,7 @@ Every Latin square of order n has rank at least 1 + 3(n−1)/(n+1), so at least 
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid"><img src="assets/centroid-circle.svg" width="100%" alt="Catching the centroid"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid">Catching the centroid</a></b><br>
-A circle on a random diameter of a convex region contains the centroid with probability at most 8/15, and at most 14/27 near a triangle; the equilateral triangle's 0.5164 is conjectured best.<br>
+A circle on a random diameter of a convex region contains the centroid with probability at most 14/27 ≈ 0.5185; the equilateral triangle's 0.5164 is conjectured best.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/verify">code</a> · Bounds in Lean; sharp value open</sub></p>
 </td>
 </tr>
