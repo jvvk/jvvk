@@ -331,10 +331,10 @@ Players multiply by 2 or 5 or divide by 10, never repeating a divisor. The tourn
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/jvvk/taxicab-distances-eleven"><img src="assets/taxicab.svg" width="100%" alt="Eleven points, distances 1 to 55"></a>
-<p><b><a href="https://github.com/jvvk/taxicab-distances-eleven">Eleven points, distances 1 to 55</a></b><br>
-Eleven lattice points whose 55 taxicab distances are exactly 1 to 55: the case n = 11 of an open question.<br>
-<sub><a href="https://github.com/jvvk/taxicab-distances-eleven">repository</a> · Computer search</sub></p>
+<a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once"><img src="assets/taxicab.svg" width="100%" alt="Eleven points, distances 1 to 55"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once">Eleven points, distances 1 to 55</a></b><br>
+Eleven lattice points whose 55 taxicab distances are exactly 1 to 55; with the parity count (n or n − 2 a square), placements exist for every allowed n ≤ 15.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/verify">code</a> · Parity count and n = 11 in Lean; n ≥ 16 open</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space"><img src="assets/cube-unfoldings.svg" width="100%" alt="Unfolded cubes that tile space"></a>
