@@ -209,16 +209,30 @@ Part of the question answered; the rest is still open.
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank"><img src="assets/latin-rank.svg" width="100%" alt="Latin squares of small rank"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank">Latin squares of small rank</a></b><br>
+Every Latin square of order n has rank at least 1 + 3(n−1)/(n+1), so at least 4 from n = 5 on; the least ranks up to order 8 are 1, 2, 3, 3, 5, 4, 6, 4.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/verify">code</a> · Bound and r(6), r(8) in Lean; r(5), r(7) by exact search</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter"><img src="assets/hexagon.svg" width="100%" alt="Six matchsticks in a square"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter">Six matchsticks in a square</a></b><br>
 No simple loop of six unit sticks fits in a unit square: the six-stick case of an open parity question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/verify">code</a> · Partly in Lean</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle"><img src="assets/pascal.svg" width="100%" alt="A randomized Pascal triangle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle">A randomized Pascal triangle</a></b><br>
 The expected average blows up whenever p ≥ 0.232; whether it does for every p > 0 is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/verify">code</a> · In Lean</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors"><img src="assets/divisor-walk.svg" width="100%" alt="Wandering over the divisors of 10ⁿ"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors">Wandering over the divisors of 10ⁿ</a></b><br>
+Players multiply by 2 or 5 or divide by 10, never repeating a divisor. The tournament's natural answer fails from 10⁶ on, and the second player beats whole families of openings on every board.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/verify">code</a> · Theorems in Lean; tables by two programs</sub></p>
 </td>
 </tr>
 <tr>
