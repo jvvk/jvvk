@@ -233,142 +233,156 @@ Part of the question answered; the rest is still open.
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points"><img src="assets/seven-colours.svg" width="100%" alt="Colour the points, not the plane"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points">Colour the points, not the plane</a></b><br>
+Points pairwise ≥ 1 apart contain N/7 pairwise more than √3 apart, but no tiling with seven colours proves it: every tiling scheme needs (1 + √3)² ≈ 7.46 colours, and nine half-open hexagon classes suffice.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/colour-the-points/paper">paper</a> · Lemma, bound arithmetic and counterexample in Lean; eight open</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray"><img src="assets/coins-in-a-tray.svg" width="100%" alt="Coins in a tray"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray">Coins in a tray</a></b><br>
 Coins of radii 1/2, …, 1/n cannot be held rigidly around the rim of a unit tray for any 5 ≤ n ≤ 1000, nor in a triangulated arrangement for 5 ≤ n ≤ 16; angle relations are decided exactly by prime-ideal valuations.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/coins-in-a-tray/verify">code</a> · Key lemmas in Lean; searches exact</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank"><img src="assets/latin-rank.svg" width="100%" alt="Latin squares of small rank"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank">Latin squares of small rank</a></b><br>
 Every Latin square of order n has rank at least 1 + 3(n−1)/(n+1), so at least 4 from n = 5 on; the least ranks up to order 8 are 1, 2, 3, 3, 5, 4, 6, 4.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/latin-squares-small-rank/verify">code</a> · Bound and r(6), r(8) in Lean; r(5), r(7) by exact search</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne"><img src="assets/good-perm.svg" width="100%" alt="Permutations with no whole-number averages"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne">Permutations with no whole-number averages</a></b><br>
 If no proper block of a permutation of 1..n averages to a whole number, then n = 2ᵐ − 1; the asker's example works exactly when n is prime, and n = 15, 63 have none.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/verify">code</a> · Theorems in Lean; n ≤ 63 by two searches</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid"><img src="assets/centroid-circle.svg" width="100%" alt="Catching the centroid"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid">Catching the centroid</a></b><br>
 A circle on a random diameter of a convex region contains the centroid with probability at most 14/27 ≈ 0.5185; the equilateral triangle's 0.5164 is conjectured best.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/catching-the-centroid/verify">code</a> · Bounds in Lean; sharp value open</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/broken-stick-feynman"><img src="assets/broken-stick.svg" width="100%" alt="A broken stick and a Feynman diagram"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/broken-stick-feynman">A broken stick and a Feynman diagram</a></b><br>
 The chance that six random pieces of a stick make a tetrahedron is a three-loop Feynman diagram; it is 0.0125749944…, not 1/79.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/broken-stick-feynman/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/broken-stick-feynman/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/broken-stick-feynman/verify">code</a> · Algebra in Lean; no closed form</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/prime-squares-half-turns"><img src="assets/prime-squares.svg" width="100%" alt="Prime squares and half-turns"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/prime-squares-half-turns">Prime squares and half-turns</a></b><br>
 A p × p square, p prime, cut into p congruent pieces that are only translated or half-turned must be cut into bars; with quarter-turns too, the question is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/prime-squares-half-turns/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/prime-squares-half-turns/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/prime-squares-half-turns/verify">code</a> · Algebra in Lean; full question open</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/five-numbers-many-averages"><img src="assets/five-numbers.svg" width="100%" alt="Five numbers, many averages"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/five-numbers-many-averages">Five numbers, many averages</a></b><br>
 Replacing two numbers by their average, the five integers (5N, 0, 4N, 3N±5, 3N±5) with N = 2ᵏ⁺¹ need exactly k + 3 moves to become equal, so five numbers have no bound on the shortest solution.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/five-numbers-many-averages/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/five-numbers-many-averages/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/five-numbers-many-averages/verify">code</a> · In Lean; which lists are solvable is open</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/why-the-sphere-beats-the-ball"><img src="assets/sphere-ball.svg" width="100%" alt="Why the sphere beats the ball"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/why-the-sphere-beats-the-ball">Why the sphere beats the ball</a></b><br>
 Three points on concentric spheres form an acute triangle with probability at most 1/2, equal only when the two outer radii agree; so the uniform sphere beats every rotationally invariant law in space, while in the plane moving mass inwards helps.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/why-the-sphere-beats-the-ball/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/why-the-sphere-beats-the-ball/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/why-the-sphere-beats-the-ball/verify">code</a> · Formula and bound in Lean; the disc's gain unexplained</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/raising-the-apex"><img src="assets/raising-apex.svg" width="100%" alt="Raising the apex raises the Gaussian centroid"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/raising-the-apex">Raising the apex raises the Gaussian centroid</a></b><br>
 Raise a triangle's apex along the perpendicular through a point of its base and the Gaussian centre of mass rises, in every dimension and wherever the Gaussian is centred; whether it always pins down the moving vertex is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/raising-the-apex/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/raising-the-apex/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/raising-the-apex/verify">code</a> · Steps after Prékopa's theorem in Lean; oblique case open</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words"><img src="assets/sixteen-words.svg" width="100%" alt="Sixteen words cover all 15-bit strings"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words">Sixteen words cover all 15-bit strings</a></b><br>
 Deleting five bits from every 15-bit string can leave just 16 different strings, down from 17 in 2013, so the growth rate of the n/3-deletion problem is at most 16^(1/15) < 1.2031; among symmetric sets 16 is optimal.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sixteen-words/verify">code</a> · Rate argument in Lean; cover and optimality by certified computation</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter"><img src="assets/hexagon.svg" width="100%" alt="Six matchsticks in a square"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter">Six matchsticks in a square</a></b><br>
 No simple loop of six unit sticks fits in a unit square: the six-stick case of an open parity question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/unit-hexagon-diameter/verify">code</a> · Partly in Lean</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle"><img src="assets/pascal.svg" width="100%" alt="A randomized Pascal triangle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle">A randomized Pascal triangle</a></b><br>
 The expected average blows up whenever p ≥ 0.232; whether it does for every p > 0 is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/randomized-pascal-triangle/verify">code</a> · In Lean</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels"><img src="assets/power-two-tree.svg" width="100%" alt="Labelling binary trees by powers of two"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels">Labelling binary trees by powers of two</a></b><br>
 Every tree with at most 24 vertices can be labelled 0 to n − 1 with power-of-two steps; five constructions and an exact rule for universal label sets narrow any counterexample.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/power-two-tree-labels/verify">code</a> · Constructions and lemmas in Lean; searches by two programs</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors"><img src="assets/divisor-walk.svg" width="100%" alt="Wandering over the divisors of 10ⁿ"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors">Wandering over the divisors of 10ⁿ</a></b><br>
 Players multiply by 2 or 5 or divide by 10, never repeating a divisor. The tournament's natural answer fails from 10⁶ on, and the second player beats whole families of openings on every board.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/wandering-over-divisors/verify">code</a> · Theorems in Lean; tables by two programs</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once"><img src="assets/taxicab.svg" width="100%" alt="Eleven points, distances 1 to 55"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once">Eleven points, distances 1 to 55</a></b><br>
 Eleven lattice points whose 55 taxicab distances are exactly 1 to 55; with the parity count (n or n − 2 a square), placements exist for every allowed n ≤ 15.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-taxicab-distance-once/verify">code</a> · Parity count and n = 11 in Lean; n ≥ 16 open</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space"><img src="assets/cube-unfoldings.svg" width="100%" alt="Unfolded cubes that tile space"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space">Unfolded cubes that tile space</a></b><br>
 Every one of the 502,110 unfoldings of the six-dimensional cube tiles five-space with its point reflection, extending Firet's five-cube result.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/cube-unfoldings-tile-space/verify">code</a> · Certificates, two checkers; lemmas in Lean</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees"><img src="assets/balanced-mast.svg" width="100%" alt="How much two balanced trees must share"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees">How much two balanced trees must share</a></b><br>
 Two balanced trees on n leaves always agree on at least n^0.243 leaves, and some on only n^(5/11); Martin and Thatte conjectured n^(1/2).<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-tree-agreement-subtrees/verify">code</a> · Lean, except one certified inequality</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/slabs.svg" width="100%" alt="Cubes cut into slabs"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Cubes cut into slabs</a></b><br>
 A cube made of one k-slab for each k ≤ n has side at most n(n+1)/2, and none exists for n = 4, 5, 6; Friedman conjectures infinitely many.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Bound by hand, n = 4 to 6 by two searches</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains"><img src="assets/chains.svg" width="100%" alt="The chain that reaches farthest"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains">The chain that reaches farthest</a></b><br>
 Every best chain has lengths rising then falling; exactly three orders occur for four segments, and the general count is open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/span-maximising-chains/verify">code</a> · Shape theorem in Lean</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity"><img src="assets/polyomino-parity.svg" width="100%" alt="Polyomino rectangles by parity"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity">Polyomino rectangles by parity</a></b><br>
 One copy of every hole-free n-omino tiles no rectangle for n = 8, 10 or 16, because the pieces' checkerboard imbalances add up to 2 mod 4 (for n = 16, over 11,230,003 pieces). Sizes 9 and 11 to 15 stay open.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polyomino-rectangle-parity/verify">code</a> · Parity argument in Lean; totals by two enumerations</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/boomerangs-polya-orchard"><img src="assets/boomerangs.svg" width="100%" alt="Boomerangs in Pólya's orchard"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/boomerangs-polya-orchard">Boomerangs in Pólya's orchard</a></b><br>
+With trees of radius r at the lattice points, a circular arc from the origin can see farther than any straight line: between 4/r − 10 and 28/r². The true order of growth is open.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/boomerangs-polya-orchard/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/boomerangs-polya-orchard/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/boomerangs-polya-orchard/verify">code</a> · Bounds in Lean; arcs certified exactly</sub></p>
 </td>
 </tr>
 <tr>
