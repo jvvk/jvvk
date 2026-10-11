@@ -128,6 +128,20 @@ Proved by exhaustive search with independent cross-checks, or by hand with parts
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/every-path-count-but-three"><img src="assets/every-path-count-but-three.svg" width="100%" alt="Every path count except three"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/every-path-count-but-three">Every path count except three</a></b><br>
+The largest number of simple paths between two vertices of a graph can be every positive integer except 3: four families where a path can use only one added vertex give 2a, 6a + 1, 6a + 9, 6a + 11.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/every-path-count-but-three/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-path-count-but-three/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-path-count-but-three/verify">code</a> · Construction in Lean; 3 impossible by hand</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short"><img src="assets/debruijn-cycles-two-short.svg" width="100%" alt="De Bruijn cycles two short"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short">De Bruijn cycles two short</a></b><br>
+B(n) has (2ⁿ − (−1)ⁿ)/3 · 2^(2ⁿ⁻¹ − 2n + 2) cycles of length 2ⁿ − 2, proving a 1972 count and correcting it as quoted: a rank-one Laplacian change, inverted exactly because the walk mixes in n − 1 steps.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/verify">code</a> · Determinant algebra in Lean; BEST and matrix-tree cited</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/polygon-cells-are-small"><img src="assets/polygon-cells-are-small.svg" width="100%" alt="The cells of a regular polygon are small"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/polygon-cells-are-small">The cells of a regular polygon are small</a></b><br>
 Draw every diagonal of a regular n-gon with side 1: every cell has area at most C/n, except the odd central cell (area → π/16); the side triangles are usually not the largest.<br>
