@@ -128,110 +128,115 @@ Proved by exhaustive search with independent cross-checks, or by hand with parts
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/four-acute-faces"><img src="assets/four-acute-faces.svg" width="100%" alt="Four acute faces"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/four-acute-faces">Four acute faces</a></b><br>
+Four random points on a sphere span a tetrahedron with four acute faces with probability exactly 1/12: flipping signs gives eight tetrahedra, and on average 2/3 of them succeed.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/four-acute-faces/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/four-acute-faces/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/four-acute-faces/verify">code</a> · In Lean, including the probability</sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/every-other-residue"><img src="assets/every-other-residue.svg" width="100%" alt="Every other residue"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/every-other-residue">Every other residue</a></b><br>
 Two sets that each hit every residue mod 2^k once can be matched inside Z/2^(k+1) so that the sums are exactly the even or exactly the odd residues; a case of Snevily's even-order conjecture.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/every-other-residue/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-other-residue/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/every-other-residue/verify">code</a> · In Lean</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles"><img src="assets/equal-perimeter.svg" width="100%" alt="Equal perimeters, no two alike"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles">Equal perimeters, no two alike</a></b><br>
 A square splits into nine rectangles of equal perimeter, no two congruent; nine is the fewest, with exactly five solutions.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/equal-perimeter-rectangles/verify">code</a> · Exhaustive search, two independent programs</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611"><img src="assets/squaring.svg" width="100%" alt="697 × 611 in fourteen squares"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611">697 × 611 in fourteen squares</a></b><br>
 The rectangle needs exactly fourteen squares, not seventeen, so it is not a counterexample to the minimal squaring conjecture.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/squared-rectangle-697x611/verify">code</a> · Complete enumeration, checked against OEIS</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/bishops.svg" width="100%" alt="Three armies of bishops"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Three armies of bishops</a></b><br>
 Three armies of five bishops fit on a 5 × 5 board and three of eight on 6 × 6, and no more: Friedman's two values.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Exhaustive count of diagonal labellings</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/capture.svg" width="100%" alt="Chess capture patterns"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Chess capture patterns</a></b><br>
 Friedman's capture digraphs q, r and s are not made by any chess position, on any board.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Two independent solvers</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/kings.svg" width="100%" alt="Kings that touch in a cycle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">Kings that touch in a cycle</a></b><br>
 Kings with touch counts (1,3,6), (1,6,3) or (2,3,4) admit no finite arrangement: Friedman's unsolved problem 24.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · DRUP certificates, independent Z3 check</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/heptomino.svg" width="100%" alt="A heptomino that never balances"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A heptomino that never balances</a></b><br>
 This heptomino never fills a square with equal row and column counts, in any size: one shape of Friedman's problem 15.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Proof by hand, exact checker</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/tournament.svg" width="100%" alt="A tournament schedule that beats the table"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A tournament schedule that beats the table</a></b><br>
 Friedman's optimal tournaments: exact best schedules over all adaptive plans, two of them better than the published values.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Exact recursion, two programs</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems"><img src="assets/prime-signature.svg" width="100%" alt="A misfiled prime signature"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems">A misfiled prime signature</a></b><br>
 In Friedman's prime-signature table, 1022303⁴ belongs in cell (4, 411), where it is the smallest; cell (4, 41) is empty.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/math-magic-problems/verify">code</a> · Proof by hand, computer search</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations"><img src="assets/powers-of-four.svg" width="100%" alt="Deleting the powers of four"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations">Deleting the powers of four</a></b><br>
 Remove 16, 64, 256, … and the ordered ways to write n as a sum of three survivors still rise at every n: Sándor and Yang's Remark 1.3.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/powers-of-four-representations/verify">code</a> · Proposition 1 in Lean; Problem 1.4 facts by hand</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre"><img src="assets/tangent-circles.svg" width="100%" alt="Three circles and a fair coin"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre">Three circles and a fair coin</a></b><br>
 A triangle through random points on three touching circles contains the incentre with probability exactly 1/2, for all radii.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tangent-circles-incentre/verify">code</a> · Partly in Lean; geometry by hand</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game"><img src="assets/zero-sum.svg" width="100%" alt="A zero-sum selection game"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game">A zero-sum selection game</a></b><br>
 Lev's question: the winning matrices form a union of subspaces of dimension n(n+1)/2 − 1, and recognising them is Π₂ᵖ-complete.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/zero-sum-selection-game/verify">code</a> · Partly in Lean; reduction by hand</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five"><img src="assets/inverse-pairs.svg" width="100%" alt="Five from inverse pairs"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five">Five from inverse pairs</a></b><br>
 Summing 1/√(a·ā) over a and its inverse mod p gives 5 + O(p^(−1/8+ε)): the inverse pairs behave like all pairs, and those sum to (∑ 1/√a)²/p → 4.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/inverse-pairs-five/verify">code</a> · In Lean, assuming Weil's bound</sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice"><img src="assets/easiest-dice.svg" width="100%" alt="The easiest dice to tell apart"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice">The easiest dice to tell apart</a></b><br>
 Among loaded dice whose faces are capped at probability r, a staircase against its own reversal is the easiest pair to tell apart, for any number of faces and rolls; this answers an open Math.SE question with its equality cases.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/easiest-dice/verify">code</a> · In Lean; equality cases for two rolls partly open</sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral"><img src="assets/tanh-product.svg" width="100%" alt="An integral of hyperbolic tangents"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral">An integral of hyperbolic tangents</a></b><br>
 The integral of tanh(x)tanh(2x)⋯tanh(nx)/x² reduces, for odd n, to logarithms and L′(−1) values with explicit coefficients; a cotangent symmetry explains which conductors appear, answering an open Math.SE question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/tanh-product-integral/verify">code</a> · Residue steps in Lean; analytic steps cited</sub></p>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
@@ -420,7 +425,5 @@ The red segment is exactly as long as the rectangle is tall: a proof by classica
 </table>
 
 ### Elsewhere
-
-- [Four acute faces](https://mathoverflow.net/a/515661): a random tetrahedron inscribed in a sphere has four acute faces with probability 1/12.
 
 <sub>Papers and figures CC BY 4.0, code MIT.</sub>
