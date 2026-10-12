@@ -320,7 +320,7 @@ Every Latin square of order n has rank at least 1 + 3(n−1)/(n+1), so at least 
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne"><img src="assets/good-perm.svg" width="100%" alt="Permutations with no whole-number averages"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne">Permutations with no whole-number averages</a></b><br>
-If no proper block of a permutation of 1..n averages to a whole number, then n = 2ᵐ − 1; the asker's example works exactly when n is prime, and n = 15, 63 have none.<br>
+The asker's permutation has no block with a whole-number average exactly when n is prime, and n = 15 and 63 have no such permutation at all; that n must be 2ᵐ − 1 is Bîsceanu's theorem.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/good-permutations-mersenne/verify">code</a> · Theorems in Lean; n ≤ 63 by two searches</sub></p>
 </td>
 </tr>
