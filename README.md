@@ -150,7 +150,7 @@ The largest number of simple paths between two vertices of a graph can be every 
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short"><img src="assets/debruijn-cycles-two-short.svg" width="100%" alt="De Bruijn cycles two short"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short">De Bruijn cycles two short</a></b><br>
-B(n) has (2ⁿ − (−1)ⁿ)/3 · 2^(2ⁿ⁻¹ − 2n + 2) cycles of length 2ⁿ − 2, proving a 1972 count and correcting it as quoted: a rank-one Laplacian change, inverted exactly because the walk mixes in n − 1 steps.<br>
+B(n) has (2ⁿ − (−1)ⁿ)/3 · 2^(2ⁿ⁻¹ − 2n + 2) cycles of length 2ⁿ − 2, proving a 1972 count and correcting the formula printed in 1982: a rank-one Laplacian change, inverted exactly because the walk mixes in n − 1 steps.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/debruijn-cycles-two-short/verify">code</a> · Determinant algebra in Lean; BEST and matrix-tree cited</sub></p>
 </td>
 </tr>
