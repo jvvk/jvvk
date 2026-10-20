@@ -133,6 +133,15 @@ Any three phylogenetic trees on 14 species agree on some four-species subtree, a
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/verify">code</a></sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/product-state-trajectories"><img src="assets/product-state.svg" width="100%" alt="When a product state stays a product state"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/product-state-trajectories">When a product state stays a product state</a></b><br>
+If a Hamiltonian keeps one product state a product state at all times, a constant local Hamiltonian generates the same trajectory, whatever the spectrum; constant entanglement alone is not enough. A Physics Stack Exchange question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/product-state-trajectories/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/product-state-trajectories/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/product-state-trajectories/verify">code</a></sub></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ### Open problems settled, verified by computation
