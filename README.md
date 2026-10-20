@@ -126,7 +126,12 @@ If a(n) drops by a(⌊n/2⌋)/n at each odd step, then n a(n) tends to 1/(1 − 
 The shortest necklace with no rotational symmetry that gains one whenever a colour is removed has 2m·P_m beads for 2m colours and P_m(2m·p_{m+1} + 1) for 2m + 1, P_m the product of the first m primes; Weiss's question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/verify">code</a></sub></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/common-quartets"><img src="assets/quartets.svg" width="100%" alt="Common quartets of three trees"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/common-quartets">Common quartets of three trees</a></b><br>
+Any three phylogenetic trees on 14 species agree on some four-species subtree, and 13 is not enough; for k trees the threshold is between 2ᵏ + 2 and 2·3ᵏ⁻¹ + 1. Snir and Yuster's question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/common-quartets/verify">code</a></sub></p>
+</td>
 </tr>
 </table>
 
