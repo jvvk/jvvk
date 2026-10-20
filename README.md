@@ -119,6 +119,15 @@ If a(n) drops by a(⌊n/2⌋)/n at each odd step, then n a(n) tends to 1/(1 − 
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/verify">code</a></sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces"><img src="assets/precarious.svg" width="100%" alt="Precarious necklaces"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces">Precarious necklaces</a></b><br>
+The shortest necklace with no rotational symmetry that gains one whenever a colour is removed has 2m·P_m beads for 2m colours and P_m(2m·p_{m+1} + 1) for 2m + 1, P_m the product of the first m primes; Weiss's question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/verify">code</a></sub></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ### Open problems settled, verified by computation
