@@ -126,7 +126,12 @@ If a(n) drops by a(⌊n/2⌋)/n at each odd step, then n a(n) tends to 1/(1 − 
 The shortest necklace with no rotational symmetry that gains one whenever a colour is removed has 2m·P_m beads for 2m colours and P_m(2m·p_{m+1} + 1) for 2m + 1, P_m the product of the first m primes; Weiss's question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/verify">code</a></sub></p>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius"><img src="assets/dao-frobenius.svg" width="100%" alt="The Frobenius number of Dao's cyclic semigroups"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius">The Frobenius number of Dao's cyclic semigroups</a></b><br>
+With x_i = 1 + a_i + a_i a_{i+1} + ⋯ (indices cyclic), the semigroup ⟨x_1, …, x_n⟩ misses exactly up to (n − 1)(a_1⋯a_n − 1), extending ab − 1 for two generators; Hailong Dao's question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius/paper">paper</a></sub></p>
+</td>
 </tr>
 </table>
 
