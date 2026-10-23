@@ -133,6 +133,15 @@ With x_i = 1 + a_i + a_i a_{i+1} + ⋯ (indices cyclic), the semigroup ⟨x_1, �
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius/paper">paper</a></sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/fences-orbit-maximisers"><img src="assets/fences-orbits.svg" width="100%" alt="Fences do not maximise orbits of linear extensions"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/fences-orbit-maximisers">Fences do not maximise orbits of linear extensions</a></b><br>
+The posets with the most orbits of linear extensions are found exactly for n ≤ 11, and for every n ≥ 58 none is a disjoint union of fences; Richard Stanley's question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/fences-orbit-maximisers/paper">paper</a></sub></p>
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 ### Open problems settled, verified by computation
