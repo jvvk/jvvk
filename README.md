@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/banner.svg" width="100%" alt="Vamshi Jandhyala"></p>
 
-I work on problems in combinatorics, geometry and probability, many of them posed by others on MathOverflow and Mathematics Stack Exchange. Answers come with the code that checks them, and many are formalised in Lean. Every paper is in [mathematics](https://github.com/jvvk/mathematics).
+I'm an amateur mathematician. By day I work in financial services and data; in my own time I work on problems in geometry, probability and combinatorics, many of them posed by others on MathOverflow and Mathematics Stack Exchange. Answers come with the code that checks them, and many are formalised in Lean. Every paper is in [mathematics](https://github.com/jvvk/mathematics).
 
 ### Open problems settled, formally verified
 
@@ -521,7 +521,5 @@ The red segment is exactly as long as the rectangle is tall: a proof by classica
 <td width="50%"></td>
 </tr>
 </table>
-
-### Elsewhere
 
 <sub>Papers and figures CC BY 4.0, code MIT.</sub>
