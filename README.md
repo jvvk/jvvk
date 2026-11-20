@@ -9,129 +9,138 @@ Each result is checked end to end in Lean 4.
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jvvk/mathematics/tree/main/triangular-pentagonal-chains"><img src="assets/trichains.svg" width="100%" alt="Triangular chains, for every n"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/triangular-pentagonal-chains">Triangular chains, for every n</a></b><br>
+1, 2, …, n can be lined up so that neighbours sum to triangular numbers for n = 2 and every n ≥ 9, and closed into a loop for n ≥ 12 except 14; the pentagonal analogue too. Berlekamp and Guy asked for proofs.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/triangular-pentagonal-chains/paper">paper</a></sub></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings"><img src="assets/almost-squares.svg" width="100%" alt="Almost-squares in almost-squares"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings">Almost-squares in almost-squares</a></b><br>
 Which k × (k+1) rectangles split into smaller distinct ones: exactly 4, 10, 12, 14, 15, 18 and every k ≥ 20. Friedman's conjecture.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/almost-square-tilings/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull"><img src="assets/triangulations.svg" width="100%" alt="Two triangulations, one outline"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull">Two triangulations, one outline</a></b><br>
 From nine points on, two triangulations can share nothing but the five outline edges, answering Rote.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy"><img src="assets/enclosing.svg" width="100%" alt="Does the smallest copy fit?"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy">Does the smallest copy fit?</a></b><br>
 For many random points in an equilateral triangle, the smallest enclosing copy fits inside with probability tending to 13/48, not 1/2.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/smallest-enclosing-copy/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles"><img src="assets/chords.svg" width="100%" alt="Random lines past three circles"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles">Random lines past three circles</a></b><br>
 Lines AB and BC hit the third circle equally often, for every ratio of radii in geometric progression.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/random-chords-two-circles/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph"><img src="assets/cubic.svg" width="100%" alt="A cubic graph with no (n−1)-cycle"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph">A cubic graph with no (n−1)-cycle</a></b><br>
 Hamiltonian, not bipartite, and no cycle of length 19: an answer to Gordon Royle's question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hamiltonian-cubic-graph/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares"><img src="assets/necklace.svg" width="100%" alt="Necklaces no cut can split"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares">Necklaces no cut can split</a></b><br>
 Shuffle anti-squares exist in every even length from 24, as Grytczuk, Pawlik and Pleszczyński conjectured.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/shuffle-anti-squares/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic"><img src="assets/mex.svg" width="100%" alt="A mex sequence that never repeats"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic">A mex sequence that never repeats</a></b><br>
 Guy's question E27: the sequence from 1,1,1,0,1,0,1,1 is unbounded, so not ultimately periodic.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/mex-sequence-not-periodic/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison"><img src="assets/conway.svg" width="100%" alt="Newman-Conway and its cousin"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison">Newman-Conway and its cousin</a></b><br>
 Alkan's alternating variant never strays further from n/2 than the Newman-Conway sequence.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/hofstadter-conway-comparison/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates"><img src="assets/lemniscates.svg" width="100%" alt="Two figures of eight"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates">Two figures of eight</a></b><br>
 Polynomial lemniscates meet in at most 2n₁n₂ − 2 points; two lemniscates of Bernoulli in at most six.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/polynomial-lemniscates/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients"><img src="assets/balanced-ternary.svg" width="100%" alt="Quotients of balanced ternary numbers"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients">Quotients of balanced ternary numbers</a></b><br>
 Guy's question F31: infinitely many integers are not a ratio of two numbers whose balanced-ternary digits are all 1 or −1.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/balanced-ternary-quotients/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse"><img src="assets/descent-sets.svg" width="100%" alt="Descent sets of a permutation and its inverse"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse">Descent sets of a permutation and its inverse</a></b><br>
 Almost every pair of subsets occurs, so Stanley's growth rate is L = 4.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/descent-sets-inverse/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity"><img src="assets/alternating-sum.svg" width="100%" alt="An alternating sum that is never negative"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity">An alternating sum that is never negative</a></b><br>
 Abdesselam's sum L(u,a,b,n) is nonnegative, and Taylor's and Hucht's conjectures follow.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/alternating-sum-positivity/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio"><img src="assets/symmetric-ratio.svg" width="100%" alt="A ratio of symmetric polynomials"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio">A ratio of symmetric polynomials</a></b><br>
 Ait-Haddou's ratio of complete homogeneous symmetric polynomials increases, for every degree and position.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/symmetric-polynomial-ratio/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths"><img src="assets/dyck-signs.svg" width="100%" alt="Even and odd Dyck paths"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths">Even and odd Dyck paths</a></b><br>
 Weight a Dyck path by its valley positions: even minus odd is the number of symmetric paths. Cigler's question, a combinatorial proof.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/even-and-odd-dyck-paths/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials"><img src="assets/sylow.svg" width="100%" alt="Counting cycles in a Sylow 2-subgroup"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials">Counting cycles in a Sylow 2-subgroup</a></b><br>
 The two factors Stanley observed are irreducible over the rationals at every level.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/sylow-cycle-polynomials/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence"><img src="assets/half-window.svg" width="100%" alt="A sequence that looks back half way"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence">A sequence that looks back half way</a></b><br>
 If a(n) drops by a(⌊n/2⌋)/n at each odd step, then n a(n) tends to 1/(1 − ln 2), as a commenter guessed from the digits.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/half-window-sequence/verify">code</a></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces"><img src="assets/precarious.svg" width="100%" alt="Precarious necklaces"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces">Precarious necklaces</a></b><br>
 The shortest necklace with no rotational symmetry that gains one whenever a colour is removed has 2m·P_m beads for 2m colours and P_m(2m·p_{m+1} + 1) for 2m + 1, P_m the product of the first m primes; Weiss's question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/precarious-necklaces/verify">code</a></sub></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius"><img src="assets/dao-frobenius.svg" width="100%" alt="The Frobenius number of Dao's cyclic semigroups"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius">The Frobenius number of Dao's cyclic semigroups</a></b><br>
 With x_i = 1 + a_i + a_i a_{i+1} + ⋯ (indices cyclic), the semigroup ⟨x_1, …, x_n⟩ misses exactly up to (n − 1)(a_1⋯a_n − 1), extending ab − 1 for two generators; Hailong Dao's question.<br>
 <sub><a href="https://github.com/jvvk/mathematics/tree/main/dao-cyclic-frobenius/paper">paper</a></sub></p>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
