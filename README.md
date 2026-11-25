@@ -159,13 +159,13 @@ Proved by exhaustive search with independent cross-checks, or by hand with parts
 <a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded"><img src="assets/simmons-left-loaded.svg" width="100%" alt="Binomial distributions with integer mean are left-loaded"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded">Binomial distributions with integer mean are left-loaded</a></b><br>
 Compare the two tails of Bin(n, m/n) at each distance i from the mean: the lower tail wins near the mean and loses further out, yet every partial sum of the differences stays positive, as Fokkink, Papavassiliou and Pelekis conjectured. The trick is to keep summing past i = m, where the total is exactly zero.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded/paper">paper</a> · Binomial theorem in Lean 4; exact checks to n = 400 by two independent programs</sub></p>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/simmons-left-loaded/verify">code</a> · Binomial theorem in Lean 4; exact checks to n = 400 by two independent programs</sub></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies"><img src="assets/renyi-ulam-two-lies.svg" width="100%" alt="Even splitting is optimal in the Rényi–Ulam game with two lies"></a>
-<p><b><a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies">Even splitting is optimal in the Rényi–Ulam game with two lies</a></b><br>
-Find a hidden candidate with yes-or-no questions when up to two answers may be lies. From a position where every class is even, asking about exactly half of each class is never beaten: Pálvölgyi's 2014 conjecture, settled for two lies by a congruence that no other first question can avoid.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies/paper">paper</a> · Argument above depth 15 in Lean 4; depths up to 15 by a certificate checked by two independent programs</sub></p>
+<a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies"><img src="assets/renyi-ulam-two-lies.svg" width="100%" alt="Even splitting in the Rényi–Ulam game: optimal with two lies, not with three or more"></a>
+<p><b><a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies">Even splitting in the Rényi–Ulam game: optimal with two lies, not with three or more</a></b><br>
+Find a hidden candidate with yes-or-no questions when up to two answers may be lies. Pálvölgyi conjectured in 2014 that, from a position where every class is even, asking about exactly half of each class is never beaten. True for two lies, by a congruence no other first question can avoid; false for three or more, where a congruence two questions deep makes halving cost one extra question.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/renyi-ulam-two-lies/verify">code</a> · Two-lie argument and three-lie obstruction in Lean 4; certificates checked by two independent programs</sub></p>
 </td>
 </tr>
 <tr>
