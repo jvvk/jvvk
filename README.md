@@ -158,8 +158,8 @@ Proved by exhaustive search with independent cross-checks, or by hand with parts
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings"><img src="assets/nonnested.svg" width="100%" alt="Non-nested matchings in ordered graphs"></a>
 <p><b><a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings">Non-nested matchings in ordered graphs</a></b><br>
-Draw arcs between points on a line. How many can you draw with no three disjoint arcs, none inside another? Barát, Freschi and Tóth conjectured (k − 1)n for k arcs; it fails from k = 5. Proved for k = 3 (2n, in both forms) via the stars of 2-triangulations, and the strong form disproved for k = 4 by a 9-vertex graph.<br>
-<sub><a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings/paper">paper</a> · Both theorems in Lean 4 (Capoyleas–Pach and Pilaud–Santos as stated hypotheses); every computed value by two programs sharing no code</sub></p>
+Draw arcs between points on a line. How many can you draw with no k disjoint arcs, none inside another? Barát, Freschi and Tóth conjectured (k − 1)n; it fails from k = 5. Proved for k = 3 (2n, in both forms) and for k = 4 (3n) via the star polygons of 2- and 3-triangulations, and the strong form disproved for k = 4 by a 9-vertex graph: the conjecture is now decided for every k.<br>
+<sub><a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings/paper">paper</a> · <a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings/lean">Lean</a> · <a href="https://github.com/jvvk/mathematics/tree/main/nonnested-matchings/verify">code</a> · Theorems 1 and 2 and the star lemmas of Theorem 3 in Lean 4 (Capoyleas–Pach and Pilaud–Santos as stated hypotheses); every computation by two programs sharing no code</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jvvk/mathematics/tree/main/mahonian-superdiagonals"><img src="assets/mahonian.svg" width="100%" alt="The superdiagonals of the Mahonian triangle"></a>
